@@ -33,7 +33,10 @@ ol {
 }
 
 section {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-right: 0;
+    padding-bottom: 120px;
+    padding-left: 0;
 }
 
 img {
@@ -43,7 +46,8 @@ img {
 
 .container {
     width: 1158px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 
 }
@@ -51,12 +55,12 @@ img {
 
 
 /* #region header */
-.nav-container {
-    display: flex;
+.header-section {
+    border-bottom: 1px solid #e7e9fc;
+    height: 72px;
 }
 
 .logo-header {
-
     color: #2e2f42;
 }
 
@@ -76,6 +80,7 @@ img {
 
 
 .nav-container {
+    display: flex;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -84,7 +89,6 @@ img {
 .nav-header {
     display: flex;
     align-items: center;
-
 }
 
 .logo-web {}
@@ -144,6 +148,7 @@ img {
 .hero-section {
     background-color: #2e2f42;
     padding: 188px 0;
+    display: flex;
 
 }
 
@@ -193,7 +198,7 @@ img {
 .content-section {}
 
 .title-content {
-    display: none;
+    visibility: hidden;
 }
 
 .content-list {
@@ -212,6 +217,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .content-item-text {
@@ -260,7 +266,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -273,7 +279,7 @@ img {
 }
 
 .team-info {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 /* #endregion Team */
@@ -297,7 +303,7 @@ img {
     gap: 48px 24px;
 }
 
-.portfolio-list-item {
+.portfolio-list-item .portfolio-list {
     width: calc((100%-48px)/3);
 }
 
@@ -331,15 +337,18 @@ img {
 
 }
 
-.logo-footer {
+.footer-studio-span {
+    color: #f4f4fd;
+}
+
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
 }
