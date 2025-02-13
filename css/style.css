@@ -45,11 +45,9 @@ img {
 }
 
 .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
-
+    padding: 0 15px 0 15px;
+    width: 1158px;
 }
 
 
@@ -197,7 +195,7 @@ img {
 
 .content-section {}
 
-.title-content {
+.title-portfolio {
     visibility: hidden;
 }
 
